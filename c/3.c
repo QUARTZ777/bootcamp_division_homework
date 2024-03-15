@@ -7,6 +7,9 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int a;
+    scanf("%d", &a);
+    if(a>=0 && a<12) printf("AM\n");
+    else if(a>=12 && a<=23) printf("PM\n");
     return 0;
 }

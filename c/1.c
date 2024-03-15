@@ -7,6 +7,11 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int a,b,c,d;
+    scanf("%d", &a);
+    b = a / 100;
+    c = (a-100*b) / 10;
+    d = a - (100*b + 10*c);
+    printf("%d%d%d\n", d, c, b);
     return 0;
 }

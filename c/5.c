@@ -7,6 +7,10 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int a,b;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    if(a>=14 || b>=160) printf("X\n");
+    else printf("O\n");
     return 0;
 }
